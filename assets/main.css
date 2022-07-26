@@ -97,7 +97,10 @@ td.sponsor img{width: 100%}
 
 /* MU: The Table on the Program Page */
 
-tr.break { color: ##E7BCC3; }
+table.program tr { height:3em; vertical-align:middle; }
+table.program th,td { padding: 5px; }
+th.time { width: 150px; }
+tr.break { background-color: #E7BCC3; }
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
